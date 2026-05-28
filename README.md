@@ -29,7 +29,7 @@ export POWER_AUTOMATE_URL="https://your-power-automate-endpoint"
 ```bash
 curl -X POST http://localhost:5000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message":"What\'s the latest proof point for Product X?"}'
+  -d '{"message":"What is the latest proof point for Product X?"}'
 ```
 
 ### Run focused tests
